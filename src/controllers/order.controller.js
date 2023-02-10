@@ -42,7 +42,7 @@ exports.addOrder = (req, res) => {
         },
         data: {
           to: driverPhoneNumber,
-          message: `Hello ${driverName} , There is booked a cleaning service for you for the ${busNumber} Best regards`,
+          message: `Hej ${driverName} , Der er bestilt busbehandling til BUS ${busNumber} Venlig hilsen "Buswash"`,
           from: "BUSWASH APS",
           timestamp: 1474970400,
         },
